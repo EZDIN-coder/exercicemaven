@@ -17,7 +17,7 @@
 		<maven.compiler.target>11</maven.compiler.target>
 		<oracle.version>19.7.0.0</oracle.version>
 		<mysql.version>8.0.21</mysql.version>
-		<mainClass>com.test.freme.Main</mainClass>
+		<mainClass>fr.afpa.exercices.main</mainClass>
 		<spring.version>4.1.4.RELEASE</spring.version>
 	</properties>
 
