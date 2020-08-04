@@ -1,0 +1,8 @@
+fr\afpa\exercices\spring\jdbc\BooksDao$booksMapper.class
+fr\afpa\exercices\spring\jdbc\AuthorDao$authorsMapper.class
+fr\exercices\spring\config\AppConfiguration.class
+fr\afpa\exercices\main\AppExerciceMain.class
+fr\afpa\exercices\spring\jdbc\AuthorDao.class
+fr\afpa\exercices\spring\jdbc\BooksDao.class
+fr\afpa\exercices\spring\jdbc\table\Authors.class
+fr\afpa\exercices\spring\jdbc\table\Books.class
