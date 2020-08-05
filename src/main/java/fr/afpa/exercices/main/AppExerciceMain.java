@@ -52,17 +52,24 @@ public class AppExerciceMain {
 				log.info("afficher les livres de Truman");				
 				System.out.println(booksDao.getbookTrum());
 				
-//				log.info("insert author");
-//				authorDao.setauthors();
-//				
+//			log.info("insert author");
+//			authorDao.setauthors();
+			
 				
 //				log.info("insert books");
-//				booksDao.setbooks(10,5,"404");
-//				
+//				//booksDao.setbooks(10,6,"404");
+//				//booksDao.setbooks(11,6,"Les Sauvages Tome 1");
+//			    booksDao.setbooks(12,6,"Les Sauvages Tome 2");
+//		        booksDao.setbooks(13,6,"Les Sauvages Tome 3");
+//		         booksDao.setbooks(14,6,"Les Sauvages Tome 4");
 				
-//			log.info("delete books ");
-//				booksDao.delebookByauthorId(2);
 				
+//	           log.info("delete books ");
+//			   booksDao.delebookById(11);
+//			   booksDao.delebookById(14);
+				
+				 log.info("delete books de Honore Balzac ");
+				   booksDao.delebookByAuthorId(2);
 				
 				
 				

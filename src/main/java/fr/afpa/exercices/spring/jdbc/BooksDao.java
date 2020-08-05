@@ -70,11 +70,15 @@ public class BooksDao {
 
 	}
 
-	
-	
-	public void delebookByauthorId(int AuthorId) {
-		 String query= "delete from books where authorId = ?";
+	public void delebookByAuthorId(int AuthorId) {
+		 String query= "delete from books where AuthorId = ?";
 		 jdbcTemplate.update(query, AuthorId);
+	}
+	
+	
+	public void delebookById(int Id) {
+		 String query= "delete from books where Id = ?";
+		 jdbcTemplate.update(query, Id);
 	}
 	
 	
